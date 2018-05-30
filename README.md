@@ -7,34 +7,15 @@
 没有node基础和mongoose基础的同学可以去看看,两天快速刷完
 [传送门](https://ke.qq.com/course/185893)
 
-项目截图:
-1. client
-
-
-![博客首页](http://upload-images.jianshu.io/upload_images/4869616-a5a85407f8989cd5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-![查看文章](http://upload-images.jianshu.io/upload_images/4869616-98902ebcb14be0c6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-2. admin
-
-![分类管理](http://upload-images.jianshu.io/upload_images/4869616-5607d40b3c962905.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-![新建文章](http://upload-images.jianshu.io/upload_images/4869616-543c8a2c96fdfc6b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
 使用技术:
 
 * 前端
     1. vue
     2. vue-router 前端路由管理
     3. axios 发送ajax请求
-    4. stylus css 预处理
-    5. element-ui 后台管理ui
-    6. marked.js 新建文章支持markdown语法
-    7. highlight.js 新建文章支持代码高亮
+    4. element-ui 后台管理ui
+    5. marked.js 新建文章支持markdown语法
+    6. highlight.js 新建文章支持代码高亮
 
 * 后端
     1. express
@@ -49,8 +30,8 @@
 1. 首页内容聚合
 2. 列表页 —— 分类列表
 3. 内容页 —— 评论
-4. 注册
-5. 登录
+4. 注册(暂时取消)
+5. 登录(暂时取消)
 
 后台:
 
@@ -69,20 +50,25 @@
     * 添加文章
     * 修改文章
     * 删除文章
-    * 查看文章下所有评论(暂未实现)
+    * 查看文章下所有评论
 
-4. 评论管理 (暂未实现)
+4. 评论管理
 
     * 评论列表 : 所有评论; 查看指定文章评论
-    * 删除评论
+    * 删除评论(暂未实现)
 
-5. 移动端适配 (暂未实现)
+5. 友情链接
+
+    *添加友情链接
+    *删除友情链接
+
 
 ## 开始
 
 ``` bash
 # server目录以及vue项目根目录均需npm install
-npm install
+# 建议使用cnpm,所需要install的项比较多
+npm install 
 
 # 进入mongodb的bin目录启动数据库 (需了解mongodb的初步启动)
 mongod --dbpath=E:\project\blog\server\db 
@@ -93,15 +79,6 @@ node app.js
 # 启动浏览器端
 npm run dev
 ```
-
-![启动数据库](http://upload-images.jianshu.io/upload_images/4869616-f19cc757348fdad2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-![启动服务端(node)](http://upload-images.jianshu.io/upload_images/4869616-83ade7c7bc8206a9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-![启动浏览器端(vue)](http://upload-images.jianshu.io/upload_images/4869616-023feed148beed78.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 
 ### 注意
 
@@ -114,8 +91,6 @@ npm run dev
 
 3. mongoose以及express等后端部分代码有详细的注释,但是基本知识还是要了解,不懂可以看前面提到的视频
 
-后话:
-问题肯定特别多,做这个的时候也是特别糙,暑假还没结束,心还在浪.
-除了上述暂未实现的功能外,很多代码没有优化,很脏,可能有不少重复代码,能够抽象出来却没有抽象,但是有一点好处就是阅读的话比较方便,不用到处跳(什么鬼理由- -!!),好啦,就这样!
+问题肯定特别多,做这个的时候也是特别糙,这是我学习过程中的项目,不喜勿喷.
 
-[给我一颗小星星好不咯:github](https://github.com/hackerwen/vue-blog)
+[给我一颗小星星好不咯:github](https://github.com/734976581/personal-blog)
