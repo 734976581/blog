@@ -7,6 +7,8 @@
 没有node基础和mongoose基础的同学可以去看看,两天快速刷完
 [传送门](https://ke.qq.com/course/185893)
 
+后端下载地址[传送门](https://github.com/734976581/blog-Backstage)
+
 使用技术:
 
 * 前端
@@ -66,15 +68,11 @@
 ## 开始
 
 ``` bash
-# server目录以及vue项目根目录均需npm install
+# vue项目根目录需npm install
 # 建议使用cnpm,所需要install的项比较多
 npm install 
 
-# 进入mongodb的bin目录启动数据库 (需了解mongodb的初步启动)
-mongod --dbpath=E:\project\blog\server\db 
-
-# 进入server目录启动服务端
-node app.js
+# 进入blog-backstage启动服务端
 
 # 启动浏览器端
 npm run dev
