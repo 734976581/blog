@@ -9,6 +9,8 @@
 
 后端下载地址[传送门](https://github.com/734976581/blog-Backstage)
 
+博客访问地址[传送门](http://www.734976581.xyz:8080/blog)
+
 使用技术:
 
 * 前端
